@@ -36,5 +36,5 @@
 ### Bug Fixes
 
 * **ci:** inline publish-on-tag and remove dirty closure for Gradle 9.6.1 ([fc0e66c](https://github.com/ahincho/nova-java-mask-utils/commit/fc0e66cbdebe164b7ba855e6d3746d5bc304f323))
-* **ci:** update reusable workflow refs from OWNER/galaxy-training-devops to ahincho/nova-devops ([d96245a](https://github.com/ahincho/nova-java-mask-utils/commit/d96245af7c231821ef9724d907bdf7593e9a0065))
+* **ci:** update reusable workflow refs to ahincho/nova-devops ([d96245a](https://github.com/ahincho/nova-java-mask-utils/commit/d96245af7c231821ef9724d907bdf7593e9a0065))
 * **ci:** use PAT fallback for release-please to enable tag-triggered workflows ([1399577](https://github.com/ahincho/nova-java-mask-utils/commit/13995779402d552438159eb67d884939fd0cf249))

@@ -33,7 +33,7 @@ import java.lang.annotation.Target;
  * }
  * </pre>
  *
- * @author Galaxy Training
+ * @author Nova Platform
  * @version 1.0.0
  * @see Masked
  * @see MaskedClass
