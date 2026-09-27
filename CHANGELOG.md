@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/ahincho/nova-java-04-mask-utils/compare/v1.1.1...v1.1.2) (2026-09-27)
+
+
+### Documentation
+
+* add a README and adopt EPL-2.0 ([3e0dfa4](https://github.com/ahincho/nova-java-04-mask-utils/commit/3e0dfa4bfe098f0f80e9e8e13a181a492876fc49))
+
 ## [1.1.1](https://github.com/ahincho/nova-java-mask-utils/compare/v1.1.0...v1.1.1) (2026-07-15)
 
 
