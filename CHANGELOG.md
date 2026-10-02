@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/ahincho/nova-java-04-mask-utils/compare/v1.1.2...v1.1.3) (2026-10-02)
+
+
+### Documentation
+
+* describe the annotations maskAnnotated actually reads ([1b97b2f](https://github.com/ahincho/nova-java-04-mask-utils/commit/1b97b2f0eaa9c5122b534dccb876abfc26cca080))
+
 ## [1.1.2](https://github.com/ahincho/nova-java-04-mask-utils/compare/v1.1.1...v1.1.2) (2026-09-27)
 
 
