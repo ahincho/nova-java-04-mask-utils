@@ -67,15 +67,20 @@ String safe = MaskEngine.maskLog("payment from juan@acme.pe card 411111111111111
 
 ```java
 record Customer(
-    @Masked(MaskType.EMAIL) String email,
-    @Masked(MaskType.IDENTITY_DOCUMENT) String dni,
-    @SkipMasking String publicId) {}
+    @Masked(type = MaskType.EMAIL) String email,
+    @Masked(type = MaskType.IDENTITY_DOCUMENT) String dni,
+    String publicId) {}
 
 Customer safe = MaskEngine.maskAnnotated(customer);
 ```
 
-`@MaskedClass` masks every field of a type by default; `@SkipMasking`
-opts a field back out.
+`maskAnnotated` reads `@Masked` on each field, and `@MaskConfigAnnotation`
+on the type for its mask character and country; a field without `@Masked`
+is left as it is. `@MaskedClass` and `@SkipMasking` are not read here:
+they are for serializers, and
+[`nova-mask-spring-boot-starter`](https://github.com/ahincho/nova-java-08-commons-spring-boot-starter)
+4.0.0 uses them on JSON. There `@MaskedClass` masks the `String` fields
+whose name it recognizes, and `@SkipMasking` opts a field or a type out.
 
 ## Errors
 
